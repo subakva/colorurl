@@ -3,7 +3,7 @@ require 'sinatra'
 require 'color'
 require File.join(File.dirname(__FILE__), 'lib', 'color_ext')
 
-set :public, 'public'
+set :public_folder, 'public'
 set :views,  'views'
 
 get '/' do
@@ -30,7 +30,7 @@ get %r{/([\w]+)} do
   erb :color
 end
 
-use_in_file_templates!
+enable :inline_templates
 
 __END__
 
