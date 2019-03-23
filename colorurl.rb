@@ -75,8 +75,8 @@ __END__
 </head>
   <p style='text-align:center'>
     Try:<br/>
-    <a href='http://colorurl.local/mauve' title='mauve'>http://colorurl.local/mauve</a><br/>
-    <a href='http://colorurl.local/CABBED' title='#CABBED'>http://colorurl.local/CABBED</a><br/>
+    <a href='/mauve' title='mauve'>https://colorurl.herokuapp.com/mauve</a><br/>
+    <a href='/CABBED' title='#CABBED'>https://colorurl.herokuapp.com/CABBED</a><br/>
     Get it?
   </p>
 <body>
