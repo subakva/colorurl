@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.5.0'
+ruby '2.6.2'
 
-gem 'thin'
+gem 'puma'
 gem 'sinatra'
 gem 'color'
